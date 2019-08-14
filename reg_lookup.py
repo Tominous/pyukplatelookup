@@ -18,6 +18,6 @@ if int(reg[-2:]) > 50:
 else:
 	year = reg[-2:]
 	print "The car was registered between 1st March and 31st August 20%s" % (year)
-#for row in rows:
-#	print "Car registered in %s, %s" % (row['city'], row['region'])
+for row in rows:
+	print "Car registered in %s, %s" % (row['city'], row['region'])
 
